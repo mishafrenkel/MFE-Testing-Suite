@@ -1,0 +1,31 @@
+{
+  "name": "VS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^78.0.1",
+    "geckodriver": "^1.19.1",
+    "@applitools/eyes-selenium": "4.33.0",
+    "npm": "^6.13.4",
+    "selenium-webdriver": "4.0.0-alpha.4",
+    "sleep": "^6.1.0",
+    "mocha": "^6.2.2",
+    "chai": "^4.2.0",
+    "pryjs": "^1.0.3"
+  },
+  "devDependencies": {
+    "commander": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "es6-promise-pool": "^2.5.0",
+    "sitemap-generator": "^8.4.2",
+    "sitemap-to-array": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "crawl": "node crawler.js",
+    "kill": "kill -9 $(sudo lsof -t -i:45691)"
+  },
+  "author": "",
+  "license": "ISC"
+}
